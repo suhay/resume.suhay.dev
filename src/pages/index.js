@@ -1,21 +1,33 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Header from '../components/header'
+import Experience from '../components/experience'
+import Education from '../components/education'
+import Summary from '../components/summary'
+import Skills from '../components/skills'
+import Personal from '../components/experience/personal'
+import Other from '../components/experience/other'
+import SEO from '../components/seo'
+
+import './index.css'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Resume" />
+    <Header />
+    <div className="row">
+      <aside className="col-md-4 order-2 order-md-0">
+        <Skills />
+        <Personal />
+        <Other />
+      </aside>
+      <main className="col-md-8">
+        <Summary />
+        <Experience />
+        <Education />
+      </main>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

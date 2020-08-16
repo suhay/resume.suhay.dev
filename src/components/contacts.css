@@ -1,0 +1,33 @@
+.contacts {
+  padding-top: 7px;
+  text-align: right;
+}
+
+.contacts a {
+  color: #262626;
+  font-size: 13px;
+}
+
+.secret {
+  color: #262626;
+}
+
+.secret	a {
+  color: #262626;
+}
+
+.contacts ul {
+  list-style: none;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  .secret {
+    color: #fff;
+  }
+  .secret a {
+    color: #fff;
+  }
+}

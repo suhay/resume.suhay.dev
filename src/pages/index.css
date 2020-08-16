@@ -1,0 +1,10 @@
+aside h3 {
+  font-size: 16px;
+  color: #5d6acd;	
+}
+
+@media (min-width: 768px) {
+  aside {
+    border-right: 1px solid #CCC;
+  }
+}

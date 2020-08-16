@@ -1,0 +1,31 @@
+header {
+  margin-bottom: 10px;
+}
+
+header .header-bar {
+  width: 100vw;
+  position: absolute;
+  height: 72px;
+  background: #262626;
+  z-index: -1;
+  left: 0px;
+}
+
+header > a {
+  position: absolute;
+  right: 31px;
+  color: #FFF;
+}
+
+header h1 {
+  color: #FFF;
+  margin-bottom: -4px;
+  font-size: 60px;
+  background: #262626;
+}
+
+header h2 {
+  color: #5d6ace;
+  font-family: 'Oswald';
+  font-size: 45px;
+}

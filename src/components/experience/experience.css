@@ -1,0 +1,8 @@
+.experience .job h4 span {
+  display: block;
+  font-size: 14px;
+}
+
+.experience .job p {
+  margin-left: 15px;
+}
