@@ -28,9 +28,11 @@ jobs:
           command: yarn build
       - run:
           name: Zip Up Site
-          command: tar -zcvf $(echo $CIRCLE_SHA1).tar.gz public
+          command: |
+            echo "Saving file ${CIRCLE_SHA1}.tar.gz"
+            tar -zcvf /tmp/${CIRCLE_SHA1}.tar.gz public
       - store_artifacts:
-          path: $(echo $CIRCLE_SHA1).tar.gz
+          path: /tmp/${CIRCLE_SHA1}.tar.gz
 
   deploy:
     machine:
