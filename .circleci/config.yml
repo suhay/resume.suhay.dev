@@ -1,38 +1,26 @@
 version: 2.1
 orbs:
-  node: circleci/node@3.0.0
+  node: circleci/node@4.1.0
 
 jobs:
   build:
-    docker:
-      - image: 'cimg/node:14.14.0'
-        auth:
-          username: suhay
-          password: $DOCKERHUB_PASSWORD
+    executor:
+      name: node/default
+      tag: '13'
     steps:
       - checkout
-      - restore_cache:
-          name: Restore Yarn Package Cache
-          keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+      - node/install-packages:
+          pkg-manager: yarn
       - run:
-          name: Install Dependencies
-          command: yarn install --immutable
-      - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
-      - run:
-          name: Gatsby Build
+          name: Gatsby build
           command: yarn build
       - run:
-          name: Zip Up Site
+          name: Zip up site
           command: |
             echo "Saving file ${CIRCLE_SHA1}.tar.gz"
-            tar -zcvf /tmp/${CIRCLE_SHA1}.tar.gz public
+            tar -zcvf ${CIRCLE_SHA1}.tar.gz public
       - store_artifacts:
-          path: /tmp/${CIRCLE_SHA1}.tar.gz
+          path: ${CIRCLE_SHA1}.tar.gz
 
   deploy:
     machine:
