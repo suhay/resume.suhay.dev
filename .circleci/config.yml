@@ -4,11 +4,15 @@ orbs:
 
 jobs:
   build:
-    executor:
-      name: node/default
-      tag: '13'
+    docker:
+      - image: cimg/node:14
+        auth:
+          username: suhay
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
+      - node/install:
+          install-yarn: true
       - node/install-packages:
           pkg-manager: yarn
       - run:
