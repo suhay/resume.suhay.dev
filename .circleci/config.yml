@@ -26,6 +26,19 @@ jobs:
       - run:
           name: Gatsby Build
           command: yarn build
+      - run:
+          name: Zip Up Site
+          command: tar -zcvf resume-suhay-dev-$CIRCLE_SHA1.tar.gz public
+      - store_artifacts:
+          path: resume-suhay-dev-$CIRCLE_SHA1.tar.gz
+
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: SCP artifcat
+          command: scp resume-suhay-dev-$CIRCLE_SHA1.tar.gz ubuntu@suhay.dev:/mnt/projects/resume.suhay.dev/resume-suhay-dev-$CIRCLE_SHA1.tar.gz
 
 workflows:
   build_and_deploy:
