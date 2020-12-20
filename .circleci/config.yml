@@ -4,9 +4,6 @@ orbs:
 
 jobs:
   build:
-    branches:
-      only:
-        - master
     docker:
       - image: 'cimg/node:14.14.0'
         auth:
@@ -52,7 +49,10 @@ jobs:
 workflows:
   build_and_deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only: master
       - deploy:
           requires:
             - build
