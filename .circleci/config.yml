@@ -44,7 +44,7 @@ jobs:
       - run:
           name: SCP artifact
           command: |
-            scp ~/projects/main.tar.gz ubuntu@suhay.dev:/mnt/projects/resume.suhay.dev/${CIRCLE_SHA1}.tar.gz
+            scp ~/project/main.tar.gz ubuntu@suhay.dev:/mnt/projects/resume.suhay.dev/${CIRCLE_SHA1}.tar.gz
 
 workflows:
   build_and_deploy:
