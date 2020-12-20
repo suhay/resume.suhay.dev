@@ -31,7 +31,7 @@ jobs:
           command: tar -zcvf main.tar.gz public
       - store_artifacts:
           path: main.tar.gz
-     - persist_to_workspace:
+      - persist_to_workspace:
           root: ~/
           paths: project/main.tar.gz
 
