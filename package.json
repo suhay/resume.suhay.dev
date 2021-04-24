@@ -2,7 +2,7 @@
   "name": "@suhay/resume.suhay.dev",
   "private": true,
   "description": "Resume built with Gatsby",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Matt Suhay <matthew.suhay@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop --prefix-paths",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",

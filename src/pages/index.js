@@ -21,11 +21,11 @@ const IndexPage = () => (
         <Skills />
         <Personal />
         <Other />
+        <Education />
       </aside>
       <main className="col-md-8">
         <Summary />
         <Experience />
-        <Education />
       </main>
     </div>
   </Layout>

@@ -8,9 +8,7 @@ const Ohio = () => {
 			<p>Large, mid-western University servicing nearly 30,000 students annually.</p>
 			<ul>
 				<li><strong>Team lead</strong> role with Drupal implementation and migration utilizing a <strong>React.js</strong> front-end and <strong>Bootstrap</strong>.</li>
-				<li><strong>Increased development efficiency</strong> by integrating CI/CD and DevOps pipelines into everyday work.</li>
 				<li><strong>Project manager</strong> for implementing new branding standards resulting in adoption into over 60 microsites.</li>
-				<li><strong>Mentored and directed</strong> a summer internship program within department.</li>
 			</ul>
 		</div>
 	)

@@ -11,7 +11,7 @@ const Contact = () => (
     <h2 className="sr-only">How to contact me</h2>
     <ul>
       <li className="secret"><a href="mailto:matt@suhay.dev">matt@suhay.dev</a> <FontAwesomeIcon icon={faEnvelope} /></li>
-      <li className="secret"><a href="https://www.matthewsuhay.com">https://www.matthewsuhay.com</a> <FontAwesomeIcon icon={faLink} /></li>
+      <li className="secret"><a href="https://suhay.dev">https://suhay.dev</a> <FontAwesomeIcon icon={faLink} /></li>
       <li className="secret"><a href="https://www.linkedin.com/in/matthew-suhay">https://www.linkedin.com/in/matthew-suhay</a> <FontAwesomeIcon icon={faLinkedin} /></li>
       <li className=""><a href="https://github.com/suhay">https://github.com/suhay</a> <FontAwesomeIcon icon={faGithub} /></li>
       <li>Smoke Signals <FontAwesomeIcon icon={faFireAlt} /></li>

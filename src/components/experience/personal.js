@@ -13,11 +13,7 @@ const Personal = () => {
 				<p>Go based, experimental serverless platform to tackle the dreaded "cold start".</p>
 			</section>
 			<section>
-				<h3>Zygote3</h3>
-				<p>Open Source e-commerce solution written in React currently being implemented as the sole cart and payment gateway of an entire product line.</p>
-			</section>
-			<section>
-				<h3>Hactoberfest '18, '19</h3>
+				<h3>Hactoberfest '18, '19, '20</h3>
 				<p>Contributing participant across multiple open source projects.</p>
 			</section>
 		</section>
