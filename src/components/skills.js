@@ -19,24 +19,20 @@ const Skills = () => {
 				<ul>
 					<li><Chip label="JavaScript" /></li>
 					<li><Chip label="React.js" /></li>
+					<li><Chip label="TypeScript" /></li>
 					<li><Chip label="CSS3" /></li>
 					<li><Chip label="HTML5" /></li>
-					<li><Chip label="GatsbyJS" /></li>
 					<li><Chip label="Vue.js" /></li>
-					<li><Chip label="JSON" /></li>
-					<li><Chip label="UX" /></li>
 				</ul>
 			</section>
 			<section>
 				<h3>Back-End</h3>
 				<ul>
 					<li><Chip label="Node.js" /></li>
-					<li><Chip label="ExpressJS" /></li>
 					<li><Chip label="GraphQL" /></li>
 					<li><Chip label="Go" /></li>
 					<li><Chip label="C#" /></li>
 					<li><Chip label="PHP" /></li>
-					<li><Chip label="Java" /></li>
 				</ul>
 			</section>
 			<section>
@@ -46,12 +42,9 @@ const Skills = () => {
 					<li><Chip label="Git" /></li>
 					<li><Chip label="MongoDB" /></li>
 					<li><Chip label="SQL" /></li>
-					<li><Chip label="Heroku" /></li>
 					<li><Chip label="Redis" /></li>
-					<li><Chip label="Netlify" /></li>
 					<li><Chip label="AWS" /></li>
 					<li><Chip label="Travis" /></li>
-					<li><Chip label="Ansible" /></li>
 				</ul>
 			</section>
 		</section>
