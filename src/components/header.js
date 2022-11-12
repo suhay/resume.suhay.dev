@@ -9,7 +9,7 @@ const Header = () => (
     <div className="header-bar"></div>
     <div className="order-md-2 col-md-8">
       <h1>Matthew Suhay</h1>
-      <h2>Senior Full-Stack Developer</h2>
+      <h2>Tech Lead Full-Stack Engineer</h2>
     </div>
     <Contact />
   </header>

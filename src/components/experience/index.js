@@ -2,18 +2,18 @@ import React from 'react'
 
 import Thought from './thought-industries'
 import Escalade from './escalade'
-import Ohio from './ohio-university'
 import Upside from './upside'
+import RocketMoney from './rocket-money'
 
 import './experience.css'
 
 const Experience = () => (
   <section className="experience">
     <h2>Recent Experiences</h2>
+    <RocketMoney />
     <Upside />
     <Thought />
     <Escalade />
-    <Ohio />
   </section>
 )
 
