@@ -8,8 +8,8 @@ import RocketMoney from './rocket-money'
 import './experience.css'
 
 const Experience = () => (
-  <section className="experience">
-    <h2>Recent Experiences</h2>
+  <section className='experience'>
+    <h2>Professional Experience</h2>
     <RocketMoney />
     <Upside />
     <Thought />
