@@ -7,17 +7,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Skills = () => {
   return (
     <section className='section'>
-      <div className='order-md-1 imageBorder'>
-        <div className='image'>
-          <StaticImage src='../images/headshot.jpg' alt='A dinosaur' />
-        </div>
-      </div>
       <h2>Skills</h2>
       <section>
         <h3>Front-End</h3>
         <ul>
           <li>
-            <Chip label='React.js' />
+            <Chip label='React' />
           </li>
           <li>
             <Chip label='React Native' />
@@ -40,6 +35,9 @@ const Skills = () => {
             <Chip label='Node.js' />
           </li>
           <li>
+            <Chip label='Next.js' />
+          </li>
+          <li>
             <Chip label='TypeScript' />
           </li>
           <li>
@@ -51,16 +49,13 @@ const Skills = () => {
           <li>
             <Chip label='C#' />
           </li>
-          <li>
-            <Chip label='PHP' />
-          </li>
         </ul>
       </section>
       <section>
-        <h3>Server // Database // CI // CD</h3>
+        <h3>Server · Database · CI · CD</h3>
         <ul>
           <li>
-            <Chip label='Unit Testing' />
+            <Chip label='Jest' />
           </li>
           <li>
             <Chip label='Docker' />
@@ -69,16 +64,13 @@ const Skills = () => {
             <Chip label='Git' />
           </li>
           <li>
-            <Chip label='SQL' />
+            <Chip label='PostgresSQL' />
           </li>
           <li>
             <Chip label='AWS' />
           </li>
           <li>
             <Chip label='MongoDB' />
-          </li>
-          <li>
-            <Chip label='Redis' />
           </li>
         </ul>
       </section>

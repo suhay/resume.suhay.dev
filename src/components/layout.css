@@ -33,6 +33,10 @@ h1 {
 
 h2 {
 	color: #212529;
+  font-size: 33px;
+  padding: 5px 0;
+  margin: 5px 0;
+  border-bottom: 1px solid #CCC;
 }
 
 h3 {

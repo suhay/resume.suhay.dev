@@ -7,26 +7,29 @@ import { faLink, faFireAlt } from '@fortawesome/free-solid-svg-icons'
 import './contacts.css'
 
 const Contact = () => (
-  <div className='order-md-0 col-md-4 contacts'>
+  <div className='contacts'>
     <ul>
-      <li>
-        <a href='mailto:matt@suhay.dev'>matt@suhay.dev</a> <FontAwesomeIcon icon={faEnvelope} />
+      <li className='black'>
+        <FontAwesomeIcon icon={faEnvelope} color='#FFF' width={14} />
+        <a href='mailto:matt@suhay.dev'>matt@suhay.dev</a>
       </li>
-      <li>
-        <a href='https://suhay.dev'>https://suhay.dev</a> <FontAwesomeIcon icon={faLink} />
+      <li className='black'>
+        <FontAwesomeIcon icon={faLink} color='#FFF' width={14} />
+        <a href='https://suhay.dev'>https://suhay.dev</a>
       </li>
-      <li>
+      <li className='black'>
+        <FontAwesomeIcon icon={faLinkedin} color='#FFF' width={14} />
         <a href='https://www.linkedin.com/in/matthew-suhay'>
           https://www.linkedin.com/in/matthew-suhay
-        </a>{' '}
-        <FontAwesomeIcon icon={faLinkedin} />
+        </a>
       </li>
       <li className=''>
-        <a href='https://github.com/suhay'>https://github.com/suhay</a>{' '}
-        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faGithub} width={14} />
+        <a href='https://github.com/suhay'>https://github.com/suhay</a>
       </li>
       <li>
-        Smoke Signals <FontAwesomeIcon icon={faFireAlt} />
+        <FontAwesomeIcon icon={faFireAlt} width={14} />
+        Smoke Signals
       </li>
     </ul>
   </div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Upside = () => {
   return (
-    <div className='job row'>
-      <h3 className='row'>Senior Full-Stack Engineer</h3>
-      <h4 className='row'>Upside Business Travel — Remote — Aug 2020 - Aug 2021</h4>
+    <div className='job'>
+      <h3 className='w-100'>Senior Full-Stack Engineer</h3>
+      <h4 className=''>Upside Business Travel — Remote — Aug 2020 - Aug 2021</h4>
       <ul>
         <li>
           <strong>Team lead </strong> for an autonomous group of engineers focused on

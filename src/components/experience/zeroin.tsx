@@ -2,13 +2,18 @@ import React from 'react'
 
 const ZeroIn = () => {
   return (
-    <div className='job row'>
-      <h3 className='row'>Founder · Chief Technology Officer</h3>
-      <h4 className='row'>ZeroIn — Remote — Feb 2024 - Present</h4>
+    <div className='job'>
+      <h3 className='w-100'>Founder · Chief Technology Officer</h3>
+      <h4 className='w-100'>ZeroIn — Remote — Feb 2024 - Present</h4>
       <ul>
         <li>
-          <strong>Built and led a company of 6r</strong> to develop a platform that helps people
-          find the best products for their sustainability needs.
+          <strong>Built and led a company of 6</strong> to develop a platform that helps people find
+          the best products for their sustainability needs.
+        </li>
+        <li>
+          Implemented a{' '}
+          <strong>model used for measuring the carbon footprints and plastic waste</strong> of
+          sustainable products so the user is able to see a high level overview of their impact.
         </li>
         <li>
           <strong>Constructed a sustainable marketplace and climate action habit builder</strong>{' '}
@@ -22,6 +27,10 @@ const ZeroIn = () => {
         <li>
           Showcased the platform at the <strong>2024 Collision Conference</strong> in Toronto to
           kick off a pre-seed round.
+        </li>
+        <li>
+          <strong>Pivoted</strong> the company into a <strong>solo project</strong> after an
+          under-performing fund raising round.
         </li>
       </ul>
     </div>

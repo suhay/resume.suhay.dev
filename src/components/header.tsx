@@ -5,12 +5,29 @@ import Contact from './contacts'
 import './header.css'
 
 const Header = () => (
-  <header className='row'>
-    <div className='order-md-2 col-md-8'>
-      <h1>Matthew Suhay</h1>
-      <h2>Climatebase Fellow</h2> · <h2>Engineering Lead</h2>
+  <header
+    className=''
+    style={{
+      position: 'relative',
+    }}
+  >
+    <div className=''>
+      <h1 className='pl-3'>Matthew Suhay</h1>
+      <div>
+        <h2 className='pl-3'>
+          Climatebase Fellow <span style={{ color: 'black' }}>· Engineering Leader</span>
+        </h2>
+      </div>
     </div>
-    <Contact />
+    <div
+      style={{
+        position: 'absolute',
+        top: 0,
+        right: 100,
+      }}
+    >
+      <Contact />
+    </div>
   </header>
 )
 

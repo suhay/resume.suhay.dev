@@ -4,7 +4,7 @@ import type { HeadFC, PageProps } from 'gatsby'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Skills from '../components/skills'
-import Personal from '../components/experience/personal'
+// import Personal from '../components/experience/personal'
 import Other from '../components/experience/other'
 import Education from '../components/education'
 // import Summary from '../components/summary'
@@ -16,17 +16,22 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <Header />
-      <div className='row'>
-        {/* <aside className='col-md-4 order-2 order-md-0'>
-          <Skills />
-          <Personal />
-          <Other />
-          <Education />
-        </aside> */}
-        <main className='col-md-8'>
+      <div className='row px-3' style={{ paddingTop: '20px' }}>
+        <main
+          className='col-md-8'
+          style={{
+            borderRight: '1px solid #ccc',
+          }}
+        >
           {/* <Summary /> */}
           <Experience />
         </main>
+        <aside className='col-md-4'>
+          <Skills />
+          {/* <Personal /> */}
+          <Other />
+          <Education />
+        </aside>
       </div>
     </Layout>
   )
@@ -43,10 +48,12 @@ export function Head() {
         integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
         crossOrigin='anonymous'
       />
+      <link rel='preconnect' href='https://fonts.googleapis.com' />
+      <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='anonymous' />
       <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap'
+        href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap'
         rel='stylesheet'
-      ></link>
+      />
     </>
   )
 }
