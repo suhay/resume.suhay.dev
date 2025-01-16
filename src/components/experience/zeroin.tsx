@@ -3,7 +3,7 @@ import React from 'react'
 const ZeroIn = () => {
   return (
     <div className='job'>
-      <h3 className='w-100'>Founder · Chief Technology Officer</h3>
+      <h3 className='w-100'>Founder · CEO · CTO</h3>
       <h4 className='w-100'>ZeroIn — Remote — Feb 2024 - Present</h4>
       <ul>
         <li>

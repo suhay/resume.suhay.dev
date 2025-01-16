@@ -16,7 +16,13 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <Header />
-      <div className='row px-3' style={{ paddingTop: '20px' }}>
+      <div className='row px-3 d-flex flex-sm-row-reverse' style={{ paddingTop: '20px' }}>
+        <aside className='col-md-4'>
+          <Skills />
+          {/* <Personal /> */}
+          <Other />
+          <Education />
+        </aside>
         <main
           className='col-md-8'
           style={{
@@ -26,12 +32,6 @@ const IndexPage: React.FC<PageProps> = () => {
           {/* <Summary /> */}
           <Experience />
         </main>
-        <aside className='col-md-4'>
-          <Skills />
-          {/* <Personal /> */}
-          <Other />
-          <Education />
-        </aside>
       </div>
     </Layout>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Upside = () => {
   return (
-    <div className='job'>
+    <div className='job' style={{ paddingTop: '10px' }}>
       <h3 className='w-100'>Senior Full-Stack Engineer</h3>
       <h4 className=''>Upside Business Travel — Remote — Aug 2020 - Aug 2021</h4>
       <ul>

@@ -4,7 +4,7 @@ const RocketMoney = () => {
   return (
     <div className='job'>
       <h3 className='w-100'>Tech Lead · Senior Full-Stack Engineer</h3>
-      <h4 className='w-100'>Rocket Money — Remote — Sep 2021 - March 2024</h4>
+      <h4 className='w-100'>Rocket Money — Remote — Sep 2021 - Mar 2024</h4>
       <ul>
         <li>
           <strong>Orchestrated and directed a cross-functional team of engineers</strong> to bring a

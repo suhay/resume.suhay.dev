@@ -9,6 +9,6 @@ strong {
 
 @media (min-width: 768px) {
   aside {
-    border-right: 1px solid #CCC;
+    /* border-right: 1px solid #CCC; */
   }
 }
