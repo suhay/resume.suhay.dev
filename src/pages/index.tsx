@@ -4,8 +4,6 @@ import type { HeadFC, PageProps } from 'gatsby'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Skills from '../components/skills'
-// import Personal from '../components/experience/personal'
-import Other from '../components/experience/other'
 import Education from '../components/education'
 // import Summary from '../components/summary'
 import Experience from '../components/experience'
@@ -16,21 +14,11 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <Header />
-      <div className='row px-3 d-flex flex-sm-row-reverse' style={{ paddingTop: '20px' }}>
-        <aside className='col-md-4'>
+      <div className='px-5 d-flex' style={{ paddingTop: '20px' }}>
+        <main className=''>
           <Skills />
-          {/* <Personal /> */}
-          <Other />
-          <Education />
-        </aside>
-        <main
-          className='col-md-8'
-          style={{
-            borderRight: '1px solid #ccc',
-          }}
-        >
-          {/* <Summary /> */}
           <Experience />
+          <Education />
         </main>
       </div>
     </Layout>

@@ -1,8 +1,8 @@
 import React from 'react'
+
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faFireAlt, faLink } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLink, faFireAlt } from '@fortawesome/free-solid-svg-icons'
 
 import './contacts.css'
 
@@ -11,7 +11,7 @@ const Contact = () => (
     <ul>
       <li className='black'>
         <FontAwesomeIcon icon={faEnvelope} color='#FFF' width={14} />
-        <a href='mailto:matt@suhay.dev'>matt@suhay.dev</a>
+        <a href='mailto:matthew.suhay@gmail.com'>matthew.suhay@gmail.com</a>
       </li>
       <li className='black'>
         <FontAwesomeIcon icon={faLink} color='#FFF' width={14} />

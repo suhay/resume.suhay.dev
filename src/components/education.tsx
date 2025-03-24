@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <section>
+    <section className='mt-5'>
       <h2>Education</h2>
       <h3>Climatebase Fellowship</h3>
       <h4>Sept 2023 - Dec 2023</h4>

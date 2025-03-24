@@ -12,10 +12,10 @@ const Header = () => (
     }}
   >
     <div className=''>
-      <h1 className='pl-3'>Matthew Suhay</h1>
+      <h1 className='pl-5'>Matthew Suhay</h1>
       <div>
-        <h2 className='pl-3'>
-          Climatebase Fellow <span style={{ color: 'black' }}>· Engineering Leader</span>
+        <h2 className='pl-5'>
+          Engineering Leader <span style={{ color: 'black' }}>· Lifelong Learner</span>
         </h2>
       </div>
     </div>

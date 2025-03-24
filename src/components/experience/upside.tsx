@@ -2,25 +2,19 @@ import React from 'react'
 
 const Upside = () => {
   return (
-    <div className='job' style={{ paddingTop: '10px' }}>
+    <div className='job'>
       <h3 className='w-100'>Senior Full-Stack Engineer</h3>
-      <h4 className=''>Upside Business Travel — Remote — Aug 2020 - Aug 2021</h4>
+      <h4 className='w-100'>Upside Business Travel // Remote // Aug 2020 - Aug 2021</h4>
       <ul>
         <li>
-          <strong>Team lead </strong> for an autonomous group of engineers focused on
-          future-proofing our products and creating company-wide coding standards.
+          Team lead for an autonomous group of engineers focused on future-proofing our products and
+          creating company-wide coding standards, resulting in a decrease in tier 0 bugs.
         </li>
         <li>
-          <strong>Led the development team</strong> with building a real-time profile sync system,
-          connecting to a Global Distribution System.
+          Built a real-time traveler profile sync system connecting to a Global Distribution System,
+          allowing users to utilize trip credits using Node.js microservices.
         </li>
-        <li>
-          <strong>React and Node.js developer</strong> for a feature-rich trip approval process.
-        </li>
-        <li>
-          <strong>Aided in sun-setting</strong> the company after closing due to loss of investor
-          support.
-        </li>
+        <li>Developed a feature-rich trip approval process using React.</li>
       </ul>
     </div>
   )

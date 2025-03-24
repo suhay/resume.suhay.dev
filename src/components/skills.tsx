@@ -2,7 +2,6 @@ import React from 'react'
 import { Chip } from '@material-ui/core'
 
 import './skills.css'
-import { StaticImage } from 'gatsby-plugin-image'
 
 const Skills = () => {
   return (
@@ -18,13 +17,16 @@ const Skills = () => {
             <Chip label='React Native' />
           </li>
           <li>
+            <Chip label='Flutter' />
+          </li>
+          <li>
             <Chip label='JavaScript' />
           </li>
           <li>
-            <Chip label='CSS3' />
+            <Chip label='CSS' />
           </li>
           <li>
-            <Chip label='HTML5' />
+            <Chip label='HTML' />
           </li>
         </ul>
       </section>
@@ -38,6 +40,9 @@ const Skills = () => {
             <Chip label='Next.js' />
           </li>
           <li>
+            <Chip label='Nest.js' />
+          </li>
+          <li>
             <Chip label='TypeScript' />
           </li>
           <li>
@@ -48,6 +53,9 @@ const Skills = () => {
           </li>
           <li>
             <Chip label='C#' />
+          </li>
+          <li>
+            <Chip label='Python' />
           </li>
         </ul>
       </section>
@@ -64,7 +72,7 @@ const Skills = () => {
             <Chip label='Git' />
           </li>
           <li>
-            <Chip label='PostgresSQL' />
+            <Chip label='SQL' />
           </li>
           <li>
             <Chip label='AWS' />
