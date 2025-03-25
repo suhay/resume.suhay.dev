@@ -19,10 +19,6 @@ const Experience = () => (
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <Upside />
     <Thought />
     <Escalade />

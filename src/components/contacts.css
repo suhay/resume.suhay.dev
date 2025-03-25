@@ -1,24 +1,12 @@
-.contacts .black a {
-  color: #fff;
-}
-
 .contacts li {
   padding-bottom: 2px;
   padding-top: 1px;
 }
 
-.contacts a {
+.contacts a, .contacts span {
   color: #262626;
   font-size: 13px;
   padding-left: 5px;
-}
-
-.secret {
-  color: #262626;
-}
-
-.secret	a {
-  color: #262626;
 }
 
 .contacts ul {
@@ -26,13 +14,4 @@
   font-size: 14px;
   padding: 0;
   margin: 0 0 10px 0;
-}
-
-@media (min-width: 768px) {
-  .secret {
-    color: #fff;
-  }
-  .secret a {
-    color: #fff;
-  }
 }

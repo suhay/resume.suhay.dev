@@ -7,13 +7,13 @@ const DashboardEarth = () => {
       <h4 className='w-100'>Dashboard.earth // Remote // Mar 2024 - Feb 2025</h4>
       <ul>
         <li>
-          Led a team of four onshore and international engineers to rebuild Dashboard's core product
-          from the ground up in two months.
+          Directed a team of four onshore and international engineers to rebuild Dashboard's core
+          product from the ground up in two months, doubling our daily users within the first week.
         </li>
-        <li>User engagement increased by 30%, and monthly retention increased by 10% MoM.</li>
+        <li>User engagement was boosted by 30%, and monthly retention was up by 10% MoM.</li>
         <li>
           Fostered a culture of continuous learning and improvement by establishing consistent
-          sprint cycles where we met 90 - 110% of sprint goals. Led meaningful retros that increased
+          sprint cycles and met 90 - 110% of sprint goals. Led meaningful retros that nurtured
           efficiency while maintaining proper work-life balance and general well-being.
         </li>
         <li>

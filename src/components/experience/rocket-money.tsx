@@ -18,8 +18,8 @@ const RocketMoney = () => {
           coaching.
         </li>
         <li>
-          Conducted experiment-based feature development using A/B testing, increasing company
-          revenue through launching a premium subscription tier.
+          Conducted experiment-based feature development using A/B testing, increasing user
+          conversion and company revenue through launching a premium subscription tier by 8%.
         </li>
       </ul>
     </div>

@@ -5,20 +5,25 @@ import Layout from '../components/layout'
 import Header from '../components/header'
 import Skills from '../components/skills'
 import Education from '../components/education'
-// import Summary from '../components/summary'
 import Experience from '../components/experience'
 
 import './index.css'
+import Contact from '../components/contacts'
+import Summary from '../components/summary'
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <Header />
-      <div className='px-5 d-flex' style={{ paddingTop: '20px' }}>
-        <main className=''>
+      <div className='d-flex' style={{ paddingTop: '20px' }}>
+        <aside className='mr-5' style={{ flexBasis: '31%' }}>
+          <Contact />
+          <Summary />
           <Skills />
-          <Experience />
           <Education />
+        </aside>
+        <main style={{ flexBasis: '69%' }}>
+          <Experience />
         </main>
       </div>
     </Layout>

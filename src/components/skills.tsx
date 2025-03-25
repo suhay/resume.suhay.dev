@@ -78,7 +78,10 @@ const Skills = () => {
             <Chip label='AWS' />
           </li>
           <li>
-            <Chip label='MongoDB' />
+            <Chip label='Mongo' />
+          </li>
+          <li>
+            <Chip label='PostgreSQL' />
           </li>
         </ul>
       </section>

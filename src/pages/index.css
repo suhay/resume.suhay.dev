@@ -6,9 +6,3 @@ aside h3 {
 strong {
   font-weight: bold;
 }
-
-@media (min-width: 768px) {
-  aside {
-    /* border-right: 1px solid #CCC; */
-  }
-}

@@ -1,14 +1,33 @@
 import React from 'react'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+
+import './summary.css'
+
 const Summary = () => {
-	return (
-		<section>
-			<h2>Mantras</h2>
-      <p><strong>Team centric.</strong> One size does not fit all for someone's success, instead, always meet people where they are and start from there.</p>
-      <p><strong>Outcome over output.</strong> Forcing a victory at the cost of burnout is not worth celebrating.</p>
-      <p><strong>Focus on finding a better way.</strong> Because we always did something one way doesn't mean it was the right one. Work the problem instead of only fixing the symptoms.</p>
-		</section>
-	)
+  return (
+    <section className='summary'>
+      <h2>Summary</h2>
+      <ul>
+        <li>
+          <FontAwesomeIcon icon={faChevronRight} width={14} />
+          <span>Launched own startup.</span>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faChevronRight} width={14} />
+          <span>
+            Rebuilt a React Native app from the ground up, resulting in 30% increased user
+            engagement.
+          </span>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faChevronRight} width={14} />
+          <span>Conducted A/B testing, increasing user conversion and revenue by 8%.</span>
+        </li>
+      </ul>
+    </section>
+  )
 }
 
 export default Summary

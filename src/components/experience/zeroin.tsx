@@ -7,11 +7,11 @@ const ZeroIn = () => {
       <h4 className='w-100'>ZeroIn // Remote // Feb 2024 - Present</h4>
       <ul>
         <li>
-          Hired and led a company of six to develop a platform that helps people find the best
-          products for their sustainability needs.
+          Founded a company of six to develop a platform that helps people find the best products
+          for their sustainability needs.
         </li>
         <li>
-          Designed a model to measure sustainable products' carbon footprints and plastic waste so
+          Designed a model to measure sustainable products' carbon footprints and plastic waste, so
           users can see a high-level overview of their impact using React and Next.js.
         </li>
         <li>Constructed a sustainable marketplace and climate action habit builder.</li>
