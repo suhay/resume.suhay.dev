@@ -28,6 +28,18 @@ const Skills = () => {
           <li>
             <Chip label='HTML' />
           </li>
+          <li>
+            <Chip label='WCAG' />
+          </li>
+          <li>
+            <Chip label='SEO' />
+          </li>
+          <li>
+            <Chip label='Tailwind' />
+          </li>
+          <li>
+            <Chip label='SEO' />
+          </li>
         </ul>
       </section>
       <section>
@@ -49,6 +61,9 @@ const Skills = () => {
             <Chip label='GraphQL' />
           </li>
           <li>
+            <Chip label='REST' />
+          </li>
+          <li>
             <Chip label='Go' />
           </li>
           <li>
@@ -57,6 +72,9 @@ const Skills = () => {
           <li>
             <Chip label='Python' />
           </li>
+          <li>
+            <Chip label='GatsbyJS' />
+          </li>
         </ul>
       </section>
       <section>
@@ -64,6 +82,9 @@ const Skills = () => {
         <ul>
           <li>
             <Chip label='Jest' />
+          </li>
+          <li>
+            <Chip label='Cypress' />
           </li>
           <li>
             <Chip label='Docker' />
@@ -82,6 +103,9 @@ const Skills = () => {
           </li>
           <li>
             <Chip label='PostgreSQL' />
+          </li>
+          <li>
+            <Chip label='Expo' />
           </li>
         </ul>
       </section>

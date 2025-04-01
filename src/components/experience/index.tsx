@@ -16,9 +16,6 @@ const Experience = () => (
     <ZeroIn />
     <DashboardEarth />
     <RocketMoney />
-    <br />
-    <br />
-    <br />
     <Upside />
     <Thought />
     <Escalade />

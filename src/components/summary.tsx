@@ -12,7 +12,11 @@ const Summary = () => {
       <ul>
         <li>
           <FontAwesomeIcon icon={faChevronRight} width={14} />
-          <span>Launched own startup.</span>
+          <span>Lead Engineer with over 15 years of experience.</span>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faChevronRight} width={14} />
+          <span>Launched own startup in 2024.</span>
         </li>
         <li>
           <FontAwesomeIcon icon={faChevronRight} width={14} />
